@@ -1,7 +1,9 @@
 import { Sales } from "./Sales.js"
+import { getEntree } from "./Entrees.js"
 
-export const FoodTruck = () => {
-    const salesHTML = Sales()
+export const FoodTruck = async () => {
+    const salesHTML = await Sales()
+    const getEntreeHTML = await getEntree()
 
     return `
         <header class="header">
@@ -16,6 +18,10 @@ export const FoodTruck = () => {
         <article class="customerOrders">
             <h2>Monthly Sales</h2>
             ${salesHTML}
+        </article>
+        <article class="getEntrees">
+        <h3>"Entrees"</h3>
+        ${getEntreeHTML}
         </article>
 
     `
