@@ -10,7 +10,7 @@ export const getEntree = async () => {
         return (
        `<div class="entree-item">
        <input type="radio"
-       name="selectedEntree"
+       name="selectedEntrees"
        id="entree-${getEntree.id}"
        value="${getEntree.id}"
        />
@@ -23,7 +23,7 @@ export const getEntree = async () => {
     //joins all the HTML
     return `
     <div class="getEntrees">
-    ${availableEntrees.join("")}</div>`
+${availableEntrees.join("")}</div>`
 
 }
 
