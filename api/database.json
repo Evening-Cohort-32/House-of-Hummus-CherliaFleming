@@ -132,52 +132,16 @@
   ],
   "purchases": [
     {
-      "totalCost": null,
+      "totalCost": "18.00",
       "id": 1
     },
     {
-      "totalCost": null,
+      "totalCost": "17.75",
       "id": 2
     },
     {
-      "totalCost": null,
+      "totalCost": "25.63",
       "id": 3
-    },
-    {
-      "totalCost": null,
-      "id": 4
-    },
-    {
-      "totalCost": 15.350000000000001,
-      "id": 5
-    },
-    {
-      "totalCost": null,
-      "id": 6
-    },
-    {
-      "totalCost": null,
-      "id": 7
-    },
-    {
-      "totalCost": 19.95,
-      "id": 8
-    },
-    {
-      "totalCost": 16.25,
-      "id": 9
-    },
-    {
-      "totalCost": null,
-      "id": 10
-    },
-    {
-      "totalCost": "16.20",
-      "id": 11
-    },
-    {
-      "totalCost": "19.00",
-      "id": 12
     }
   ]
 }

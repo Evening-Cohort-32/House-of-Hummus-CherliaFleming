@@ -23,22 +23,22 @@ export const FoodTruck = async () => {
             <h2>Monthly Sales</h2>
             ${salesHTML}
         </article>
+
         <article class="getEntrees">
         <h3>Entrees</h3>
         ${getEntreeHTML}
         </article>
+
         <article class="Veggies">
         <h3>Vegetables</h3>
         ${VeggiesHTML}
         </article>
+        
         <article class="Sides">
         <h3>Sides</h3>
         ${SidesHTML}
         </article>
-
-
     `
 }
-
 
 // added async to FoodTruck; added await to Sales(); 
