@@ -37,8 +37,6 @@ export const FoodTruck = async () => {
         </article>
 
 
-
-
     `
 }
 
