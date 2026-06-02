@@ -56,10 +56,10 @@ sequenceDiagram
 > 🧨 Before you click the "Assessment Complete" button on the Learning Platform, add your answers below for each question and make a commit. It is your option to request a face-to-face meeting with a coach for a vocabulary review.
 
 1. Should transient state be represented in a database diagram? Why, or why not?
-   > Your answer here
+   > No because is temporary data that only exists in in memory while the user is making selections. It is never saved to the database. Once the page refreshes the transient state is cleared. 
 2. In the **FoodTruck** module, you are **await**ing the invocataion of all of the component functions _(e.g. sales, veggie options, etc.)_. Why must you use the `await` keyword there? Explain what happens if you remove it.
-   > Your answer here
+   > It must be there to pause the execution and await the selection. If it was not there it would contain a Promise object not radio buttons or actual HTML string. 
 3. When the user is making choices by selecting radio buttons, explain how that data is retained so that the **Purchase Combo** button works correctly.
-   > Your answer here
+   > When a user makes a choices the it prompts the change event listener, then checks event.target.name (matches the radio button group name like name="selectedSide") to detect what was clicked. It then calls the matching setter and saves that value to the state object in transient state.
 4. You used the `map()` array method in the self assessment _(at least, you should have since it is a learning objective)_. Explain why that function is helpful as a replacement for a `for..of` loop.
-   > Your answer here
+   > The map() array method is a helpful replace ment because it makes for clearer code but also creates a new array in one step. If I used for..of I would have had to create an empty array to push each item in and then join(")them.
